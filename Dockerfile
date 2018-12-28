@@ -11,7 +11,7 @@ RUN \
 		build-essential \
 		libargtable2-dev \
 		libavformat-dev \
-		libsd1.2-dev &&\
+		libsdl1.2-dev && \
 	git clone git://github.com/erikkaashoek/Comskip /postproc/Comskip/
 	
 COPY root/ /
